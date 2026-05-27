@@ -1,0 +1,11 @@
+flask
+flask-cors
+langchain
+langchain-community
+langchain-core
+google-genai
+youtube-transcript-api
+faiss-cpu
+groq
+python-dotenv
+gunicorn
