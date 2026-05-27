@@ -1,12 +1,12 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify # type: ignore
 from flask_cors import CORS
-from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api import YouTubeTranscriptApi # type: ignore
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS # type: ignore
 from langchain_core.embeddings import Embeddings
-from groq import Groq
-from google import genai
-from dotenv import load_dotenv
+from groq import Groq # type: ignore
+from google import genai # type: ignore
+from dotenv import load_dotenv # type: ignore
 import re, os
 
 load_dotenv()
