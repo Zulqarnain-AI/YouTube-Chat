@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify # type: ignore
-from flask_cors import CORS
+from flask_cors import CORS # type: ignore
 from youtube_transcript_api import YouTubeTranscriptApi # type: ignore
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS # type: ignore
